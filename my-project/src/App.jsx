@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './assets/pages/Home';
-import Basicreacthook from './assets/pages/Basicreacthook'; // Import the Basicreacthook component
+import Basicreacthook from './assets/pages/Basicreacthook';
 import Operation from './assets/pages/Operation';
 import Datadisplay from './assets/pages/Datadisplay';
 import Datamanipulation from './assets/pages/Datamanipulation';
@@ -17,16 +17,16 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route path="Basicreacthook" element={<Basicreacthook />} />
-          <Route path="Operation" element={<Operation />} />
-          <Route path="Datadisplay" element={<Datadisplay />} />
-          <Route path="Datamanipulation" element={<Datamanipulation />} />
-          <Route path="Dataselection" element={<Dataselection />} />
-          <Route path="Forms" element={<Forms />} />
-          <Route path="Imagehandling" element={<Imagehandling />} />
-          <Route path="Masterdom" element={<Masterdom />} />
-          <Route path="Stateprogration" element={<Stateprogration />} />
-          <Route path="Compon" element={<Compon />} />
+          <Route path="/Home/Basicreacthook" element={<Basicreacthook />} />
+          <Route path="/Home/Operation" element={<Operation />} />
+          <Route path="/Home/Datadisplay" element={<Datadisplay />} />
+          <Route path="/Home/Datamanipulation" element={<Datamanipulation />} />
+          <Route path="/Home/Dataselection" element={<Dataselection />} />
+          <Route path="/Home/Forms" element={<Forms />} />
+          <Route path="/Home/Imagehandling" element={<Imagehandling />} />
+          <Route path="/Home/Masterdom" element={<Masterdom />} />
+          <Route path="/Home/Stateprogration" element={<Stateprogration />} />
+          <Route path="/Home/Compon" element={<Compon />} />
         </Route>
       </Routes>
     </Router>
