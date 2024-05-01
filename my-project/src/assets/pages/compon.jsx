@@ -4,7 +4,7 @@ import React from 'react'
 function compon() {
   return (
     <div>
-        <h1 className='bg-orange-700'>Styling</h1>
+        <h1>Styling</h1>
         <ul>
             <li>1	JSS</li>
             <li>2	Styled Components</li>

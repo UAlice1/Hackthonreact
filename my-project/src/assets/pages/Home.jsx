@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 export const Home =()=> {
   return (
     <div >
-     <div className='flex flex-col gap-11 justify-center'>
+     <div className='flex flex-row gap-11 justify-center'>
       <button className='bg-orange-950 text-white size-32 h-6 w-60 mt-7'><NavLink to="/Home/Basicreacthook">Basic HOOK</NavLink></button>
       <button className='bg-orange-950 text-white size-32 h-6 w-60 mt-7'><NavLink to="/Home/compon">Styling</NavLink></button>
       <button className='bg-orange-950 text-white size-32 h-6 w-60 mt-7'><NavLink to="/Home/Datadisplay">Data Display</NavLink></button>
